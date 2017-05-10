@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+		<!-- Latest compiled and minified CSS -->
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css">
+		<link rel="stylesheet" href="./style/style.css">
+		<link rel="stylesheet" href="./style/easypiechart.css">
+		<script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+		<script src="./js/jquery.easypiechart.js"></script>
+
+		<title>
+			Scraping Dashboard - Zomato
+		</title>
+	</head>
+
+	<body>
+		<div class="page-header">
+		  <h3>Zomato Scrape Dashboard</h3>
+		</div>
+
+		<div class="stats">
+			<div class="card orange">
+				<div class="type">Country</div>
+				<div class="count">{country_count}</div>
+			</div>
+
+			<div class="card pink">
+				<div class="type">City</div>
+				<div class="count">{city_count}</div>
+			</div>
+
+			<div class="card green">
+				<div class="type">Cities Crawled</div>
+				<div class="count">{crawled_city_count}</div>
+			</div>
+
+			<div class="card blue">
+				<div class="type">Listings</div>
+				<div class="count">{listing_count}</div>
+			</div>
+
+		</div>
+
+		<div class="graph-stats">
+			<div class="card"> 
+				<div class="percentage chart" data-percent="{cities_crawled_percentage}"> 
+					<div class="value"> {cities_crawled_percentage}% </div>
+				</div>
+				<div class="type"> Cities</div>
+			</div>
+
+			<div class="card"> 
+				<div class="percentage chart" data-percent="{listings_pages_percentage}"> 
+					<div class="value"> {listings_pages_percentage}% </div>
+				</div>
+				<div class="type"> Listing Pages</div>
+			</div>
+
+			<div class="card"> 
+				<div class="percentage chart" data-percent="{restaurants_percentage}"> 
+					<div class="value"> {restaurants_percentage}% </div>
+				</div>
+				<div class="type"> Restaurants</div>
+			</div>
+		</div>
+
+	</body>
+	<script type="text/javascript">
+		jQuery( document ).ready(function() {
+	    jQuery('.chart').easyPieChart({
+	        //your configuration goes here
+	    });
+		});
+	</script>
+</html>

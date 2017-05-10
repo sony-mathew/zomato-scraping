@@ -1,0 +1,12 @@
+
+
+Status of script running or not
+
+
+countries - count
+cities - count
+	crawled - count
+	percentage - pages crawled/total pages
+
+listing count - count
+	restaurant % - restaurant count / listing count

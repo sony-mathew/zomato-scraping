@@ -1,0 +1,45 @@
+Items
+
+#DONE Breadcrumb	.breadcrumb
+
+#DONE Header 	.resbox__header
+				Type	.resbox__header .res-info-estabs
+				Name	.resbox__header .res-name
+				Rating	.resbox__header .rating-div
+				Votes	.resbox__header .rating-votes-div
+
+
+#DONE Order Now .order-now-banner
+				Min Order 	.min-order-section
+				Delivery Rating 	.unstar (5 - this.length)
+
+#DONE Phone 	.phone .res-tel
+
+#DONE Address  .res-main-address-text span:first
+				Street .res-main-address-text span:nth-child(2) [itemprop="streetAddress"]
+			 	Region .res-main-address-text span:nth-child(3) [itemprop="addressRegion"]
+			 	Country .res-main-address-text span:nth-child(4) [itemprop="addressCountry"]
+
+#DONE Lat Longitude .resmap script ("var mapData = {lat: 13.0077333333, lon: 80.2075888889};")
+
+#DONE Status .res-stats-cont
+				Reviews	 .res-main-stats-stat .res-main-stats-num:first
+				Photos	.photocount .res-main-stats-num
+				Bookmark .wishlist .res-main-stats-num
+				Check Ins .beenthere .res-main-stats-num
+
+#DONE Cuisines .res-info-cuisines
+				known for .res-info-known-for-text
+
+#DONE Other details
+				Opening Hours #res-week-timetable / .res-info-timings (html)
+				Highlights .res-info-highlights (html)
+				Cash Methods .res-info-cft-text (html)
+				Average cost .res-info-group [itemprop="priceRange"]
+
+Menu 
+  Same page .menu-preview__item img
+
+Menu page separate 
+	Menu's  .restab_wrap .menu script (cleanup a lot)
+ 

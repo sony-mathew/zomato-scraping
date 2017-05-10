@@ -1,0 +1,125 @@
+    1  apt-get install mariadb
+    2  apt-get install mysql
+    3  apt-get install mysql-server
+    4  ls
+    5  python
+    6  sudo apt-get install mysql-server
+    7  mysql
+    8  ps -A | grep pache
+    9  ps -A | grep apache
+   10  apt-get install apache2
+   11  ps -A | grep apache
+   12  ls
+   13  apt-get install phpmyadmin
+   14  mysql
+   15  sudo apt-get install vsftpd
+   16  vi /etc/vsftpd.conf
+   17  cd /home/
+   18  ls
+   19  ls -l
+   20  mkdir foober/files
+   21  mkdir foober
+   22  mkdir foober/files
+   23  service vsftpd restart
+   24  mysql
+   25  mysql -u root -p princeumber zomato_scrape < /home/foober/zomato_2015-09-26.sql 
+   26  mysql -u root -p princeumber zomato_scrap
+   27  mysql -uroot -pprinceumber zomato_scrape < /home/foober/zomato_2015-09-26.sql 
+   28  initctl --version
+   29  cc
+   30  echo 'date'
+   31  echo `date`
+   32  /usr/bin/python
+   33  ls/home/foober/zomato/
+   34  ls /home/foober/zomato/
+   35  pip
+   36  apt-get install python-pip
+   37  pip install beautifulsoup4
+   38  pip install peewee
+   39  pip install requests
+   40  python /home/foober/zomato/scrape_zomato.py
+   41  pip install IPython
+   42  python /home/foober/zomato/scrape_zomato.py
+   43  pip install PyMySQL
+   44  history
+   45  python /home/foober/zomato/scrape_zomato.py
+   46  vi /home/foober/zomato/library/database.py
+   47  python
+   48  python /home/foober/zomato/scrape_zomato.py
+   49  initctl list
+   50  initctl list -l
+   51  initctl list
+   52  initctl start zomato 
+   53  cd /var/log
+   54  ls
+   55  cd upstart/
+   56  ls
+   57  tail -f zomato.log 
+   58  initctl status
+   59  initctl list
+   60  initctl start zomato 
+   61  tail -f zomato.log 
+   62  initctl stop zomato 
+   63  initctl start zomato 
+   64  tail -f /var/log/upstart/zomato.log 
+   65  mysql -uroot  -pprinceumber
+   66  sudo apache2 stop
+   67  sudo apache2 -k stop
+   68  sudo apache2 -k start
+   69  sudo apache2ctl restart
+   70  sudo apache2ctl stop
+   71  sudo apache2ctl -k restart
+   72  sudo apache2ctl -k start
+   73  tail -f /var/log/upstart/zomato.log 
+   74  exit
+   75  ping -t localhost
+   76  ping -t 0 localhost
+   77  ping -t 127.0.0.1
+   78  ping localhost
+   79  chmod 666 /var/log/
+   80  ls -l /var/log
+   81  mkdir /var/log/zomato_logs
+   82  chmod 666 -r /var/log/zomato_logs/
+   83  chmod -R 666 /var/log/zomato_logs/
+   84  chmod -r 666 /var/log/zomato_logs/
+   85  ls -l /var/log
+   86  cd
+   87  cd /home/foober/
+   88  ls
+   89  initctl list
+   90  initctl list | grep zoma
+   91  initctl stop zomato 
+   92  initctl kill zomato 
+   93  initctl remove zomato 
+   94  initctl --help
+   95  service zomato status
+   96  service zomato start
+   97  service zomato status
+   98  service zomato start
+   99  initctl start zomato 
+  100  service zomato status
+  101  list /var/log/
+  102  ls /var/log/
+  103  ls /var/log/upstart/
+  104  vi /var/log/upstart/zomato.log 
+  105  rm /var/log/upstart/zomato.log 
+  106  ls /var/log/upstart/
+  107  initctl start zomato 
+  108  vi /var/log/upstart/zomato.log 
+  109  initctl start zomato 
+  110  vi /var/log/upstart/zomato.log 
+  111  initctl status zomato 
+  112  pip install psutil
+  113  sudo pip install psutil
+  114  sudo apt-get install python-dev
+  115  sudo pip install psutil
+  116  rm /var/log/upstart/zomato.log 
+  117  service zomato start
+  118  vi /var/log/upstart/zomato.log 
+  119  service zomato status
+  120  rm /var/log/upstart/zomato.log 
+  121  service zomato start
+  122  vi /var/log/upstart/zomato.log 
+  123  mysql
+  124  mysql -uroot -pprinceumber
+  125  history

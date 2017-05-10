@@ -1,0 +1,104 @@
+body {
+	-webkit-font-smoothing: antialiased;
+}
+
+/* Page header */
+.page-header {
+	margin-top: -25px;
+	background-color: #363f45;
+	color: white;
+	padding-top: 20px;
+	border-bottom: 1px solid #ccc;
+}
+
+.page-header h3 {
+	margin-left: 30px;
+	font-family: sans-serif;
+	font-weight: 200;
+}
+
+
+/*  Stats styling
+*/
+.stats, .graph-stats {
+	margin: auto;
+	width: 100%;
+	padding: 20px 40px;
+	border-bottom: 1px solid #bbb;
+}
+
+
+.card {
+	width: 250px;
+	padding: 20px;
+	display: inline-block;
+	margin-right: 15px;
+	color: white;
+	border-radius: 2px;
+}
+
+.card .type {
+	width: 100%;
+  font-size: 1.6rem;
+  font-weight: 400;
+  text-transform: uppercase;
+}
+.card .count {
+	width: 100%;
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.graph-stats .card {
+	color: #999;
+	width: 250px;
+	border: 1px solid #ddd;
+	border-radius: 2px;
+}
+
+.graph-stats .card .type, .graph-stats .card .percentage {
+	width: 100%;
+	display: inline-block;
+	float: left;
+}
+
+.graph-stats .card .percentage {
+	text-align: center;
+}
+.graph-stats .card .type {
+	text-align: center;
+	margin: 10px;
+}
+.graph-stats .card .percentage .value {
+  position: absolute;
+  margin: 47.5px 0px 0px 90px;
+}
+
+/* colors */
+.orange:hover {
+	background-color: #f1b606;
+}
+.orange {
+	background-color: #fec006;
+}
+.pink:hover {
+	background-color: #dc1c5d;
+}
+.pink {
+	background-color: #e81d62;
+}
+.green:hover {
+	background-color: #83b845;
+}
+.green {
+	background-color: #8ac249;
+}
+.blue {
+	background-color: rgb(32, 149, 242);
+}
+.yellow {
+	background-color: #feea3a;
+}
+.violet {
+	background-color: #6639b6;
+}
